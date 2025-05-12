@@ -4,6 +4,8 @@ function useFetchProducts() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+
+  // fetching the data from external API using useEffect 
   useEffect(() => {
     const fetchProducts = async () => {
       try {

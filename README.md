@@ -1,12 +1,60 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ShoppyGlobe – E-commerce Application
 
-Currently, two official plugins are available:
+# Introduction
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ShoppyGlobe is a basic e-commerce web application built with React. It allows users to browse products, view details, and manage a shopping cart. The application demonstrates key React concepts such as component-based architecture, state management using Redux Toolkit, routing with React Router, data fetching, and performance optimization via lazy loading.
 
-## Expanding the ESLint configuration
+# Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Browse a list of products fetched from a public API
+- View detailed information for each product
+- Add/remove items from the shopping cart
+- Modify item quantities in the cart
+- Search products by title
+- Lazy-loaded route components for performance
+- Responsive design with Tailwind CSS
+- Graceful 404 Not Found page
+
+# Technologies Used
+
+- React.js (with functional components and hooks)
+- Redux Toolkit (for global state management)
+- React Router DOM (for navigation and route params)
+- Tailwind CSS (for fast and responsive styling)
+- JavaScript (ES6+)
+- Vite (for fast development)
+- LocalStorage (optional: for persisting cart state)
+
+# API Used
+
+Products are fetched from: https://dummyjson.com/products
+
+# Key Concepts Implemented
+
+- React Component Composition
+- Redux Actions, Reducers, and Selectors
+- useEffect for data fetching and side effects
+- Custom Hooks (e.g., useFetchProducts)
+- React.lazy and Suspense for code splitting
+- Conditional rendering and error handling
+
+## How to Run Locally
+
+## Clone the repo:
+
+Step 1: git clone https://github.com/shashikant021/ShoppyGlobe
+Step 2: cd your-repo-name
+
+## Install dependencies:
+
+Step 3: npm install
+
+## Start the development server:
+
+Step 4: npm run dev
+
+## Open in browser:
+
+Step 5: http://localhost:5173
